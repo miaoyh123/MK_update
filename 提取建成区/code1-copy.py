@@ -6,8 +6,8 @@ from arcpy import *
 import glob
 
 # 1. 栅格识别与复制
-input_path = r"G:\global NTL\PANDA"
-output_path = r"G:\global NTL\PANDA\1_copy"
+input_path = r"G:\PANDA"
+output_path = r"G:\PANDA\1_copy"
 
 # 创建文件夹
 if os.path.exists(output_path)==False:
